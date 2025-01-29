@@ -42,6 +42,31 @@ El comando `git restore` permite deshacer cambios en archivos no confirmados, re
 
 ⚠ **¡Cuidado!** Usar `git restore` puede descartar cambios no guardados. Si no quieres perderlos, haz un commit o guárdalos con `git stash`.  
 
+## 🌿 Gestión de Ramas en Git  
+
+En Git, las ramas (*branches*) permiten trabajar en diferentes versiones de un proyecto sin afectar la rama principal (`main`).  
+
+### 📌 `git branch`  
+El comando `git branch` se usa para listar, crear o eliminar ramas en Git.  
+
+| Comando | Descripción |
+|---------|------------|
+| `git branch` | Muestra todas las ramas disponibles en el repositorio. |
+| `git branch <nombre-rama>` | Crea una nueva rama sin cambiar a ella. |
+| `git branch -d <nombre-rama>` | Elimina una rama que ya ha sido fusionada. |
+| `git branch -D <nombre-rama>` | Fuerza la eliminación de una rama, incluso si tiene cambios sin fusionar. |
+
+### 🔀 `git checkout -b <nombre-rama>`  
+Este comando crea una nueva rama y cambia automáticamente a ella. Es equivalente a:  
+```
+git branch <nombre-rama>
+git checkout <nombre-rama>
+```
+
+### 🔄 `git switch`
+
+| `git switch  <nombre-rama>` | Cambia a una rama existente. |
+| `git switch -c <nombre-rama>` | Crea una nueva rama y cambia a ella (equivalente a `git checkout -b`). |
 
 ## 🚀 Objetivo  
 Este curso proporciona una base sólida para gestionar proyectos con Git de manera eficiente, permitiendo un mejor seguimiento de cambios y colaboración en equipo.  
@@ -50,3 +75,7 @@ Este curso proporciona una base sólida para gestionar proyectos con Git de mane
 
 📌 **Autor:** [Matias Paez]  
 📅 **Última actualización:** [29/01/25]  
+
+https://devhints.io/git-log
+https://devhints.io/git-branch 
+https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-clone
