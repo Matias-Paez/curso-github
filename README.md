@@ -64,7 +64,8 @@ git checkout <nombre-rama>
 ```
 
 ### 🔄 `git switch`
-
+| Comando | Descripción |
+|---------|------------|
 | `git switch  <nombre-rama>` | Cambia a una rama existente. |
 | `git switch -c <nombre-rama>` | Crea una nueva rama y cambia a ella (equivalente a `git checkout -b`). |
 
