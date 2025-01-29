@@ -23,19 +23,6 @@ Durante el curso, se aprendieron los conceptos básicos de Git, incluyendo:
 ## 🚀 Objetivo  
 Este curso proporciona una base sólida para gestionar proyectos con Git de manera eficiente, permitiendo un mejor seguimiento de cambios y colaboración en equipo.  
 
-## 📂 Estructura del repositorio  
-- `/ejercicios` → Prácticas realizadas durante el curso.  
-- `/documentación` → Material de apoyo y apuntes.  
-- `README.md` → Este archivo con información del curso.  
-
-## 🛠 Requisitos  
-Para seguir este curso, se recomienda tener instalado:  
-- [Git](https://git-scm.com/downloads)  
-- Un editor de código (ej. [VS Code](https://code.visualstudio.com/))  
-
-## 💡 Notas adicionales  
-Si encuentras errores o tienes sugerencias para mejorar esta documentación, ¡no dudes en contribuir! 😊  
-
 ---
 
 📌 **Autor:** [Matias Paez]  
