@@ -72,6 +72,20 @@ git checkout <nombre-rama>
 ## 🚀 Objetivo  
 Este curso proporciona una base sólida para gestionar proyectos con Git de manera eficiente, permitiendo un mejor seguimiento de cambios y colaboración en equipo.  
 
+### 🔄 `git merge`  
+El comando `git merge` se utiliza para fusionar los cambios de una rama a otra. Usualmente se fusionan las ramas de características (feature branches) en la rama principal (`main` o `master`).
+
+| Comando                     | Descripción |
+|-----------------------------|-------------|
+| `git merge <rama>`           | Fusiona los cambios de la rama especificada a la rama actual. |
+| `git merge --no-ff <rama>`   | Realiza una fusión sin hacer un "fast-forward", creando un commit de fusión explícito. |
+| `git merge --abort`          | Si hay conflictos durante la fusión, puedes usar este comando para cancelar la operación de fusión y volver al estado anterior. |
+
+#### ⚠ **Conflictos de fusión**  
+Cuando Git no puede fusionar automáticamente las ramas debido a cambios conflictivos, se crea un conflicto de fusión. En este caso, debes resolver los conflictos manualmente en los archivos afectados.  
+Una vez resueltos los conflictos, agrega los archivos con `git add` y luego haz el commit de la fusión con `git commit`.
+
+
 ---
 
 📌 **Autor:** [Matias Paez]  
