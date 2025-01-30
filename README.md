@@ -69,8 +69,6 @@ git checkout <nombre-rama>
 | `git switch  <nombre-rama>` | Cambia a una rama existente. |
 | `git switch -c <nombre-rama>` | Crea una nueva rama y cambia a ella (equivalente a `git checkout -b`). |
 
-## 🚀 Objetivo  
-Este curso proporciona una base sólida para gestionar proyectos con Git de manera eficiente, permitiendo un mejor seguimiento de cambios y colaboración en equipo.  
 
 ### 🔄 `git merge`  
 El comando `git merge` se utiliza para fusionar los cambios de una rama a otra. Usualmente se fusionan las ramas de características (feature branches) en la rama principal (`main` o `master`).
@@ -86,11 +84,16 @@ Cuando Git no puede fusionar automáticamente las ramas debido a cambios conflic
 Una vez resueltos los conflictos, agrega los archivos con `git add` y luego haz el commit de la fusión con `git commit`.
 
 
+## 🚀 Objetivo  
+Este curso proporciona una base sólida para gestionar proyectos con Git de manera eficiente, permitiendo un mejor seguimiento de cambios y colaboración en equipo.  
 ---
 
 📌 **Autor:** [Matias Paez]  
 📅 **Última actualización:** [29/01/25]  
 
-https://devhints.io/git-log
-https://devhints.io/git-branch 
-https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-clone
+---
+
+**Te invito a indagar más sobre el tema en :**
+
+- **[atlassian](https://www.atlassian.com/es/git)**  
+
